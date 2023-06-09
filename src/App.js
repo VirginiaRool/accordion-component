@@ -1,4 +1,5 @@
 import "./App.css";
+import Accordion from "./Accordion";
 
 const sections = [
   { title: "Section 1", content: "This is the content for section 1." },
