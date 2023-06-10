@@ -1,0 +1,30 @@
+.container {
+  margin: 50px auto;
+  max-width: 40%;
+  min-width: 400px;
+}
+
+.section {
+}
+
+.title {
+  text-align: left;
+  background-color: grey;
+  padding: 5px;
+}
+
+.content {
+  text-align: left;
+  background-color: azure;
+  overflow: hidden;
+  height: 0px;
+  transition: height 200ms ease-in-out;
+}
+
+.content p {
+  padding: 36px 5px;
+}
+
+.content.active {
+  height: 120px;
+}
