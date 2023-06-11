@@ -3,7 +3,7 @@ import "./Accordion.css";
 
 export default function Accordion({ sections }) {
   const [activeIndex, setActiveIndex] = useState(0);
-  console.log(activeIndex);
+  //console.log(activeIndex);
 
   return (
     <div className="container">
